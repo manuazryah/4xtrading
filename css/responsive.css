@@ -1,0 +1,622 @@
+/* 
+    Created on : Jan 1, 2019, 4:00:00 PM
+    Author     : Azryah Networks
+*/
+
+
+@media only screen and (min-width:1400px){
+}
+
+@media only screen and (min-width:1200px){
+    .fullwidth{
+        max-width: 1325px;
+    }
+    .foot-abt{
+        padding-right: 100px;
+    }
+    #myHeader.sticky .main-nav-section .nav-list .link {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    #about-page .our-vision p {
+        margin: 0 25%;
+    }
+    #about-page .contact-bar p {
+        padding-right: 115px;
+    }
+    #about-page .grey-btn{
+        float: right;
+    }
+    .buy-domain .bg{
+        background-size: cover;
+    }
+    #login-page .form-div .left-box{
+        padding-right: 135px;
+    }
+    #packages-page .package-listing{
+        padding: 0 95px;
+    }
+}
+
+@media (max-width:1200px) and (min-width:992px){
+    #myHeader .main-nav-section .nav-list .link{
+        font-size: 12px;
+        padding: 15px 12px;
+    }
+    .dropdown-toggle::after{
+        width: 8px;
+        right: 1px;
+    }
+    .foot-abt{
+        padding-right: 55px;
+    }
+    #about .video-js{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #about .vjs-poster{
+        background-size: cover;
+        background-position: center;
+    }
+    .price-discount{
+        margin-left: 100px;
+    }
+    #clients .slick-slider{
+        margin-left: 290px;
+    }
+    #contact-page .wesite-info .content-box span{
+        font-size: 12px;
+    }
+    #contact-page .contact-details .self-pad {
+        padding: 0 60px;
+    }
+    #packages-page .package-listing{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and  (min-width: 992px) {
+    .header .menu-icon {
+        display: none;
+    }
+    #speciality{
+        text-align: center;
+    }
+    #myHeader.sticky .logo-section .logo{
+        width: 155px;
+    }
+    #myHeader.sticky .navbar{
+        padding: 0px 15px;
+    }
+    #myHeader.sticky .main-nav-section .nav-list .link{
+        padding: 20px 12px;
+    }
+    #login-page .form-div .forgot{
+        display: inline-block;
+        float: right;
+    }
+    #about-page .sec2 .img-div, #about-page .sec2 .img-div img{
+        display: block;
+    }
+    #news-page .news-detail .left-box{
+        padding-right: 55px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .scrollup{
+        bottom: 20px;
+    }
+    .order0{
+        order: 0;
+        -webkit-order: 0;
+    }
+    .order1{
+        order: 1;
+        -webkit-order: 1;
+    }
+    .md-hidden{
+        display: none;
+    }
+    #myHeader .logo-section{
+        float: left;
+    }
+    #myHeader .menu-icon{
+        float: right;
+    }
+    #myHeader .menu-icon .navbar-toggler{
+        padding: 15px 20px;
+        border: none;
+        background: #efefef;
+        margin: 20px 0;
+        color: #9a9a9a;
+        outline: none;
+        box-shadow: none;
+    }
+    #myHeader .top-navigation{
+        padding: 0px;
+    }
+    #myHeader .main-nav-section .navbar{
+        padding: 0px;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+    #myHeader .main-nav-section .navbar-nav{
+        background: #efefef;
+        margin-bottom: 30px;
+    }
+    #myHeader .main-nav-section .nav-list .link{
+        padding: 10px 15px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+        color: #464646;
+    }
+    #why-choose .center{
+        display: none;
+    }
+    #why-choose .discp{
+        padding: 0px;
+    }
+    #about .video-js{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #about .vjs-poster{
+        background-size: cover;
+        background-position: center;
+    }
+    #clients .direction .prev, #clients .direction .next{
+        top: 10px;
+        height: 43px;
+    }
+    #clients .slick-list{
+        padding: 0px !important;
+    }
+    .foot-abt .foot-logo{
+        width: 225px;
+    }
+    #clients .direction{
+        top: 35px;
+    }
+    #clients .client-category{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    #clients .green-point{
+        display: none;
+    }
+    #clients .slick-slider{
+        margin-left: 0px;
+    }
+    #contact-page .contact-details .self-pad {
+        padding: 0px;
+    }
+    #contact-page .wesite-info .content-box span{
+        font-size: 12px;
+    }
+    #login-page.register-page .remember input[type=checkbox]{
+        float: left;
+        position: absolute;
+    }
+    #login-page.register-page .remember label{
+        padding-left: 35px;
+        margin-left: 0;
+        text-align: left;
+    }
+    #news-page .news-detail .right-box{
+        margin-top: 30px;
+    }
+    .news-carousel .slick-list {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (min-width:768px){
+    #login-page.register-page .form-div .left-box {
+        padding-right: 55px;
+    }
+    #login-page.register-page .left-box .col-md-12:last-child .form-group{
+        margin-bottom: 0px;
+    }
+    #login-page.register-page .right-box .col-md-12:last-child .form-group{
+        margin-bottom: 0px;
+    }
+    .news-detail .prop-slider .sp-thumbnail-container{
+        width: 135px !important;
+        height: 107px !important;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px){
+    .hidden-md{
+        display: none;
+    }
+    .advidor-console{
+        margin-top: 15px;
+    }
+    #main-slider .carousel-caption{
+        bottom: 55px;
+    }
+    #main-slider .carousel-caption .sub-head, #main-slider .carousel-caption .head{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    #main-slider .carousel-caption .info{
+        font-size: 13px;
+    }
+    #main-slider .carousel-caption .btn1{
+        font-size: 13px;
+        padding: 7px 33px;
+    }
+    #main-slider .carousel-caption .intrest-rate{
+        font-size: 11px;
+    }
+    #main-slider .wow-msg{
+        width: 155px;
+        height: 155px;
+        padding: 50px 20px;
+        font-size: 13px;
+    }
+    .price-discount{
+        left: 26%;
+    }
+    #blog .blog-box .img-box .blog-meta{
+        font-size: 11px;
+        line-height: 19px;
+        font-weight: 500;
+        padding: 3px 20px;
+    }
+    #blog .blog-box .img-box .blog-cntnt p{
+        font-size: 10px;
+    }
+    #blog .blog-box .img-box .blog-cntnt p:first-child {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    #contact-page .contact-details .box{
+        padding: 40px 15px;
+    }
+    .faqs .icon-list .item{
+        margin: 0 10px;
+    }
+    .faqs .icon-list .item .title{
+        font-size: 12px;
+    }
+    .common-banner h1{
+        font-size: 39px;
+        line-height: 38px;
+    }
+    .common-banner h1 .light{
+        font-size: 18px;
+    }
+    .common-banner p.description{
+        font-size: 13px;
+    }
+    .common-banner .email-buynow{
+        font-size: 12px;
+        width: 43%;
+        margin-top: 20px;
+    }
+    .common-banner .email-starting{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    #login-page .form-div{
+        padding: 50px 50px 50px;
+    }
+    #login-page .form-div .msg{
+        font-size: 14px;
+    }
+    #login-page .form-div .left-box .orng-btn {
+        padding: 13px 60px;
+    }
+    #login-page .form-div .forgot{
+        text-align: left;
+        width: 100%;
+        display: block;
+        font-size: 12px;
+        top: -15px;
+        float: none;
+    }
+    #login-page .form-div .right-box .orng-btn{
+        width: 100%;
+    }
+    .news-carousel .slick-list {
+        padding: 0px !important;
+    }
+    #news-page .news-detail .subscribe-box{
+        display: none;
+    }
+    aside .new-posts {
+        margin-bottom: 0px;
+    }
+    #login-page.register-sucess .form-div .right-box {
+        padding: 25px 0;
+        padding-left: 55px;
+    }
+    #forex-price .main-head-section h2{
+        font-size: 22px;
+    }
+    #forex-price .main-head-section h2 span{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .advidor-console{
+        margin-top: 15px;
+    }
+    #main-slider .carousel-caption{
+        bottom: 15px;
+    }
+    #main-slider .carousel-caption .sub-head, #main-slider .carousel-caption .head{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    #main-slider .carousel-caption .info{
+        font-size: 13px;
+    }
+    #main-slider .carousel-caption .btn1{
+        font-size: 13px;
+        padding: 7px 33px;
+    }
+    #main-slider .carousel-caption .intrest-rate{
+        font-size: 11px;
+    }
+    #main-slider .wow-msg, .carousel-indicators{
+        display: none;
+    }
+    #why-choose{
+        padding-bottom: 0px;
+    }
+    #why-choose .spec-list .left{
+        padding-right: 15px;
+        text-align: left;
+        padding-top: 0px;
+    }
+    #why-choose .spec-list .left .list{
+        padding-right: 0px;
+        padding-left: 95px;
+    }
+    #why-choose .spec-list .left .icon {
+        right: auto;
+        left: 0px;
+    }
+    #why-choose .spec-list .right{
+        padding-top: 0px;
+        padding-left: 15px;
+    }
+    .price-discount{
+        margin-left: 0px;
+    }
+    #myHeader .quick-contact li a span, #myHeader .top-right ul li a span{
+        display: none;
+    }
+    #myHeader .top-right{
+        float: none;
+        display: inline-block;
+    }
+    .sm-txt-rit{
+        text-align: right;
+    }
+    #clients .direction{
+        display: none;
+    }
+    #myHeader .top-right ul li a{
+        margin-right: 30px;
+    }
+    #myHeader .top-right ul li a.login::before{
+        width: 13px;
+        height: 15px;
+    }
+    #contact-page .contact-details .self-pad .cols {
+        margin-bottom: 20px;
+    }
+    #contact-page .contact-enquiry-sec .left{
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .main-head-section2 h2{
+        color: #fff;
+    }
+    #contact-page .bg .info{
+        color: #e2e2e2;
+    }
+    #contact-page .wesite-info .content-box{
+        padding-left: 0;
+        padding-top: 80px;
+        background-position: center top;
+    }
+    #contact-page .wesite-info .content-box span{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #contact-page .wesite-info .content-box span::before {
+        left: 0;
+        right: 0px;
+        top: -10px;
+        width: 150px;
+        height: 1px;
+        margin: 0 auto;
+    }
+    #accordion .card-header .card-link{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    #accordion .sizing{
+        font-size: 12px;
+    }
+    .need-hlp, .need-hlp p{
+        font-size: 15px;
+    }
+    .need-hlp a {
+        font-size: 16px;
+    }
+    #login-page .form-div{
+        padding: 50px 50px 50px;
+    }
+    #login-page .form-div .right-box{
+        padding-left: 15px;
+        margin-top: 20px;
+        padding-top: 40px;
+        border-left: 0px;
+        border-top: 1px solid #e5e5e5;
+    }
+    .news-detail .news-title{
+        font-size: 18px;
+    }
+    #news-page .news-detail .subscribe-box{
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #login-page.register-sucess .form-div .right-box {
+        padding-left: 0px;
+    }
+    #packages-page .package-listing{
+        padding: 0 50px;
+    }
+    #forex-price .main-head-section h2{
+        font-size: 20px;
+    }
+    #forex-price .main-head-section h2 span{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:768px) and (min-width:576px){
+    .hidden-sm{
+        display: none;
+    }
+    .foot-links li{
+        width: 100%;
+    }
+    .faqs .icon-list .item {
+        margin: 0 5px;
+    }
+    .faqs .icon-list .item .title{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 14px;
+    }
+    .news-detail .prop-slider .sp-thumbnail-container{
+        margin-bottom: 25px;
+        width: 125px !important;
+        height: 90px !important;
+    }
+    #packages-page #why-choose .box-listing .head{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #packages-page #why-choose .box-listing p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .hidden-xs{
+        display: none;
+    }
+    #main-slider .carousel-caption .sub-head, #main-slider .carousel-caption .head{
+        font-size: 26px;
+        line-height: 28px;
+    }
+    #main-slider .carousel-caption .info{
+        font-size: 13px;
+        margin-top: 3px;
+        margin-bottom: 7px;
+    }
+    #main-slider .carousel-caption .btn1 {
+        font-size: 11px;
+        padding: 5px 25px;
+    }
+    #main-slider .carousel-caption .intrest-rate {
+        font-size: 9px;
+        padding: 0px 20px;
+    }
+    #speciality{
+        display: none;
+    }
+    #blog .blog-box .img-box img{
+        width: 100%;
+    }
+    .price-discount {
+        margin-left: 15%;
+        margin-top: -30px;
+    }
+    .faqs .icon-list .item {
+        display: none;
+    }
+    .news-detail .prop-slider .sp-thumbnail-container{
+        margin-bottom: 25px;
+        width: 125px !important;
+        height: 90px !important;
+    }
+}
+
+@media only screen and (max-width:468px){
+    #main-slider .carousel-caption {
+        left: 12%;
+        bottom: 0;
+    }
+    #main-slider .carousel-caption .sub-head, #main-slider .carousel-caption .head{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #main-slider .carousel-caption .info{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #main-slider .carousel-caption .btn1, #main-slider .carousel-caption .intrest-rate{
+        display: none;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        width: 38px;
+    }
+    #about .main-head-section2{
+        text-align: left;
+    }
+    #about .main-head-section2 h2::after{
+        display: none;
+    }
+    .foot-links li{
+        width: 100%;
+    }
+    #login-page .form-div .msg{
+        font-size: 13px;
+        text-align: center;
+    }
+    #login-page .form-div .left-box .orng-btn {
+        padding: 13px 10px;
+        width: 100%;
+    }
+    #login-page .form-div .forgot{
+        text-align: left;
+        width: 100%;
+        display: block;
+        font-size: 12px;
+        top: -15px;
+        float: none;
+    }
+    #login-page .form-div .right-box .orng-btn{
+        width: 100%;
+        padding: 13px 10px;
+    }
+    #login-page.register-sucess .form-div .activities ul li span{
+        clear: both;
+        display: block;
+        padding-left: 0;
+        margin: 0px 0;
+    }
+    #packages-page .package-listing{
+        padding: 0 20px;
+    }
+}
